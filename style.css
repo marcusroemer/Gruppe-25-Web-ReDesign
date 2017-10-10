@@ -1,0 +1,44 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body {
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: 180% auto;
+    background-position: center;
+    padding: 0px 15vw 0px 15vw;
+}
+
+.sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.logo {
+    background-color: white;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+}
+
+.nav {
+    background-color: white;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0px 100% 0px;
+    border-top: solid black 2px;
+}
+
+.nav a {
+    color: darkred;
+    padding: 15px 15px 15px 15px;
+    border: solid black 1px;
+}
+
+footer {
+    text-align: center;
+    background-color: white;
+}
